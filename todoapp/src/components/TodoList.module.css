@@ -1,0 +1,19 @@
+.todoList {
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 83%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(133, 133, 133);
+  border-radius: 5px;
+  height: 25px;
+}
